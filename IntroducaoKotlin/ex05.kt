@@ -3,9 +3,8 @@ fun calcularMediaDeDoisValores() {
     val n1 = readLine()!!.toDouble()  // Converte a entrada para inteiro
     print("Digite outro valor: ")
     val n2 = readLine()!!.toDouble()
-    val soma = n1 + n2
-    val media = soma / 2.0  // Divisão por 2.0 para garantir precisão decimal
-    println("A média de $n1 + $n2 é igual $media")
+    val media = (n1 + n2) / 2
+    println("A média de ($n1 + $n2) / 2 é igual $media")
 }
 fun main(){
     calcularMediaDeDoisValores()

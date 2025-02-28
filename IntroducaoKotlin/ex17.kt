@@ -1,9 +1,13 @@
+fun main(){
+    tempoVida()
+}
+
 fun tempoVida(){
     print("Quantos cigarros você fuma por dia? ")
-    val cigarrosDia = readline()!!.toInt()
+    val cigarrosDia = readLine()!!.toInt()
 
     print("Por quantos anos você fumou cigarro? ")
-    val anosFumo = readLine()!!toInt()
+    val anosFumo = readLine()!!.toInt()
 
     val minCigarro = 10
     val minAno = 365 * 24 * 60
@@ -12,5 +16,5 @@ fun tempoVida(){
 
     val diasPerdidos = minPerdidos / 1440 
 
-    print("Você perdeu aproximadamente $dias")
+    print("Você perdeu aproximadamente $diasPerdidos dias por conta do fumo.")
 }

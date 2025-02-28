@@ -1,3 +1,4 @@
+import kotlin.math.pow
 fun calcularDelta() {
     println("Digite os valores de a, b e c separados por espaço: ")
     val input = readln()!!.split(" ")
