@@ -5,3 +5,6 @@ fun calcularNovoSalario() {
 
     println("O salário do funcionário é de $salarioFun, com o aumento ficou $novoSal")
 }
+fun main(){
+    calcularNovoSalario()
+}

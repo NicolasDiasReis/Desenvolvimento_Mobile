@@ -5,3 +5,6 @@ fun calcularCustoAluguelDeCarro() {
     val dias = readln()!!.toInt()
     println("Você ficou $dias dias com o carro, e rodou $kmRodados km então terá que pagar ${(90 * dias) + (0.20 * kmRodados)}")
 }
+fun main(){
+    calcularCustoAluguelDeCarro()
+}

@@ -3,3 +3,7 @@ fun apresentarPessoa() {
     println("Qual é o seu nome? $nome")
     println("Olá $nome, é um prazer te conhecer!")
 }
+
+fun main(){
+    apresentarPessoa()
+}

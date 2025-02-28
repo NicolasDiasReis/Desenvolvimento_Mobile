@@ -6,3 +6,6 @@ fun exibirAntecessorESucessor() {
     println("O antecessor de $n é $antecessor")
     println("O sucessor de $n é $sucessor")
 }
+fun main(){
+    exibirAntecessorESucessor()
+}

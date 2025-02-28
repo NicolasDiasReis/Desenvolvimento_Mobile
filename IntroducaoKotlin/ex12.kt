@@ -11,3 +11,6 @@ fun calcularDelta() {
     val delta = (b.toDouble().pow(2)) - (4 * a * c)
     println("Delta = $delta")
 }
+fun main(){
+    calcularDelta()
+}

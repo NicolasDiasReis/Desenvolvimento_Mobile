@@ -10,3 +10,6 @@ fun calcularTintaNecessaria() {
     println("Tamanho da área: $area")
     println("Tinta necessária: $tintaNecessaria")
 }
+fun main(){
+    calcularTintaNecessaria()
+}

@@ -6,3 +6,6 @@ fun calcularSalarioTrabalhador() {
 
     println("Seu salário é de ${diasTrabalhados * (horasTrabalhadasPorDia * valorHoraTrabalhada)}")
 }
+fun main(){
+    calcularSalarioTrabalhador()
+}

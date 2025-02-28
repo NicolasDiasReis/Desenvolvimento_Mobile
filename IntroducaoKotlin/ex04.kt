@@ -7,3 +7,6 @@ fun somarDoisNumeros() {
 
     println("A soma entre $n1 e $n2 é igual a $resultado")
 }
+fun main(){
+    somarDoisNumeros()
+}

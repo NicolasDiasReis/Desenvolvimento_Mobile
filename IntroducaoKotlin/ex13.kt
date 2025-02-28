@@ -5,3 +5,6 @@ fun calcularPrecoPromocional() {
 
     println("O produto tem o preço original de $precoProduto e com o preço promocional fica $valorPromo")
 }
+fun main(){
+    calcularPrecoPromocional()
+}

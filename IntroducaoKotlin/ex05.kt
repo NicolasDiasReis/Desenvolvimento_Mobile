@@ -7,3 +7,6 @@ fun calcularMediaDeDoisValores() {
     val media = soma / 2.0  // Divisão por 2.0 para garantir precisão decimal
     println("A média de $n1 + $n2 é igual $media")
 }
+fun main(){
+    calcularMediaDeDoisValores()
+}

@@ -14,3 +14,6 @@ fun converterDistancia() {
         println("Entrada não é válida")
     }
 }
+fun main(){
+    converterDistancia()
+}

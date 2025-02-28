@@ -5,3 +5,6 @@ fun exibirDobroETerceiraParte() {
     println("O dobro de $n é ${n * 2}")
     println("A terça parte de $n é $tercaParte")
 }
+fun main(){
+    exibirDobroETerceiraParte()
+}
