@@ -1,15 +1,28 @@
+# Ignorar arquivos e pastas do Gradle
+.gradle/
+gradle/
+
+# Ignorar configurações específicas do Android Studio
+.idea/
+
+# Ignorar arquivos de compilação e de cache
+build/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Ignorar arquivos de configuração do Kotlin
+.kotlin/
+
+# Ignorar arquivos locais específicos (não devem ser versionados)
 local.properties
+
+# Ignorar scripts de execução do Gradle
+gradlew
+gradlew.bat
+
+# Ignorar arquivos de configuração específicos do Gradle
+gradle.properties
+
+# Não ignorar a pasta app e os arquivos importantes do projeto
+!app/
+!settings.gradle.kts
+!build.gradle.kts
