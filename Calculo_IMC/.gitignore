@@ -1,27 +1,48 @@
-# Ignorar pastas do Gradle
+# Ignore a pasta .gradle
 .gradle/
 
-# Ignorar arquivos de configuração do Gradle
-build.gradle.kts
+# Ignore arquivos de configuração do Gradle
 gradle-wrapper.properties
+build.gradle.kts
 settings.gradle.kts
 
-# Ignorar arquivos locais
-local.properties
-
-# Ignorar pastas do Android Studio
-.idea/
-
-# Ignorar pastas de compilação
+# Ignore a pasta de construção
 /build/
 
-# Ignorar arquivos de configuração de módulo
+# Ignore arquivos do Android Studio
+.idea/
+
+# Ignore arquivos de configuração de módulo do Android Studio
 *.iml
 
-# Ignorar outros arquivos do Android Studio
-/captures/
+# Ignore arquivos e pastas de build do NDK
 .externalNativeBuild/
 .cxx/
 
-# Arquivos do macOS (se você estiver em um sistema macOS)
+# Ignore arquivos de captura
+/captures/
+
+# Ignore arquivos locais que não devem ser versionados
+local.properties
+
+# Ignore arquivos do macOS
 .DS_Store
+
+# Ignore arquivos temporários criados pelo sistema
+*~
+
+# Ignore arquivos de log
+*.log
+
+# Ignore pastas de dependências do Android
+.gradle/
+
+# Ignore arquivos do Kotlin e seus respectivos caches
+.kotlin/
+
+# Ignore arquivos de configuração de código gerado
+*.apk
+*.ap_
+
+# Ignore arquivos de cache do Gradle
+.gradle/
