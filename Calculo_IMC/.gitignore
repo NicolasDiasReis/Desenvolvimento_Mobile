@@ -1,0 +1,30 @@
+# Pastas geradas pelo Android Studio
+/.idea/
+/build/
+/.gradle/
+/captures/
+/.externalNativeBuild/
+/cxx/
+
+# Arquivos do Gradle (importante manter as configurações do Gradle)
+gradle.properties
+local.properties  # Deixe local.properties fora do controle de versão se for para configurações locais (não inclui configurações sensíveis)
+/gradlew
+/gradlew.bat
+/settings.gradle.kts
+
+# Arquivos de configuração específicos do IDE
+*.iml
+
+# Arquivos específicos do macOS
+.DS_Store
+
+# Pastas Kotlin
+/.kotlin/
+
+# Arquivos gerados de build nativos (caso haja)
+*.so
+*.a
+
+# Caso tenha pastas de recursos que não precisam ser versionadas (como logs, caches, etc.)
+*.log
