@@ -1,0 +1,6 @@
+com.example.calculoimc.test.app-tracing-1.2.0-0 C:\Users\nicor\.gradle\caches\8.11.1\transforms\62f38476e635356adae56e08108f40ad\transformed\tracing-1.2.0\res
+com.example.calculoimc.test.app-core-1.6.1-1 C:\Users\nicor\.gradle\caches\8.11.1\transforms\8ebaf9442946bff5dfd564db9300c9e8\transformed\core-1.6.1\res
+com.example.calculoimc.test.app-androidTest-2 C:\Users\nicor\AndroidStudioProjects\CalculoIMC\app\build\generated\res\resValues\androidTest\debug
+com.example.calculoimc.test.app-mergeDebugAndroidTestResources-3 C:\Users\nicor\AndroidStudioProjects\CalculoIMC\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.calculoimc.test.app-mergeDebugAndroidTestResources-4 C:\Users\nicor\AndroidStudioProjects\CalculoIMC\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.calculoimc.test.app-debugAndroidTest-5 C:\Users\nicor\AndroidStudioProjects\CalculoIMC\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

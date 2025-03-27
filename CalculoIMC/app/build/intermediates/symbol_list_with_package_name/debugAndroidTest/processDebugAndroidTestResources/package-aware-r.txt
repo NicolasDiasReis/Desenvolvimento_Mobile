@@ -1,0 +1,3 @@
+com.example.calculoimc.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
